@@ -5,6 +5,7 @@ const questionContainerElement = document.getElementById('question-container');
 const questionElement = document.getElementById('question');
 const answerButtonsElement = document.getElementById('answer-buttons');
 
+
 const startingSeconds = 60;
 let time = 60;
 
@@ -16,7 +17,7 @@ let shuffledQuestions, currentQuestionIndex
 // Created event listener for Starting the game 
 startButton.addEventListener('click', startGame);
 
-// Created event listener for generating the next question
+// Created event listener for generating the next question for quiz
 nextButton.addEventListener('click', () => {
   currentQuestionIndex++
   setNextQuestion()
@@ -143,6 +144,7 @@ const questions = [
     ]
   }
 ]
+
 
 // function for count down timer
 function updateCountdown() {
