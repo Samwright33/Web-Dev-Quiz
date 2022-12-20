@@ -38,6 +38,7 @@ function setNextQuestion() {
   showQuestion(shuffledQuestions[currentQuestionIndex])
 };
 
+
 // function displays the question and determines if question is correct or incorrect
 function showQuestion(question) {
   questionElement.innerText = question.question
