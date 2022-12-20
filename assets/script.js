@@ -5,6 +5,7 @@ const questionContainerElement = document.getElementById('question-container');
 const questionElement = document.getElementById('question');
 const answerButtonsElement = document.getElementById('answer-buttons');
 
+
 const startingSeconds = 60;
 let time = 60;
 
